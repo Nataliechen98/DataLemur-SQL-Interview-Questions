@@ -1,8 +1,7 @@
 ![image](https://user-images.githubusercontent.com/94289230/195591896-105c59b8-8181-4bf5-b5dc-a53c0d049ece.png)
 
 
-WRONG ANSWER
-
+MISTAKES
 ```sql
 SELECT candidate_id, COUNT(skill) as skill_count
 FROM candidates
