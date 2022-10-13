@@ -18,6 +18,6 @@ SELECT candidate_id
 FROM candidates
 WHERE skill IN ('Python' , 'Tableau' , 'PostgreSQL')
 GROUP BY candidate_id
-HAVING COUNT(skill) = 3
+HAVING COUNT(skill) = 3  --aggregate function has to use HAVING, cannot use WHERE
 ORDER BY candidate_id;
 ```
