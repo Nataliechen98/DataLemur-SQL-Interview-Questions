@@ -39,3 +39,4 @@ SELECT COUNT (DISTINCT company_id)
 FROM job_listings_rank
 WHERE ranking > 1;
 ```
+*if using ROW_NUMBER, don't have to GROUP BY
